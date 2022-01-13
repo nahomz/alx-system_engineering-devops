@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times in 9th print hi
+x=1
+while [ $x -le 10 ]
+do
+	if [ $x -eq 9 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+  x=$((x + 1))
+done

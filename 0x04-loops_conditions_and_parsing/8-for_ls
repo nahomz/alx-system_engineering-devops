@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that displays ls Where only the part of the name after the first dash is displayed
+
+for i in *
+do 
+	echo "$i" | cut -d '-' -f 2
+done

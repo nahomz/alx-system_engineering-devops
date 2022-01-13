@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script is displaying bad luck good luck and Best school
+x=1
+while [ $x -le 10 ]
+do
+	if [ $x -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $x -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+  x=$((x + 1))
+done
