@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays str infinite loop with sleep-2s.
+trap "echo I am invincible!!!" SIGTERM
+while true; do
+        echo To infinity and beyond
+	sleep 2
+done

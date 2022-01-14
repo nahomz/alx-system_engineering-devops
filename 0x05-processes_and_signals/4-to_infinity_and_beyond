@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays str infinite loop with sleep-2s.
+while true; do
+        echo To infinity and beyond
+	sleep 2
+done

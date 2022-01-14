@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Task 2 implementation using pgrep
+pgrep -l bash
