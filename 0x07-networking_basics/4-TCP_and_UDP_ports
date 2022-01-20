@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script that displays all listening ports in the system and the PID
+# and name of the program to which each sovket belongs to.
+
+sudo netstat -l -p
