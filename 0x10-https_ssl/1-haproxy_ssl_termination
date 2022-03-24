@@ -39,5 +39,5 @@ frontend my_frontend
 
 backend my_backend_1
         balance roundrobin
-        server 914-web-01 35.196.96.41:80 check
-        server 914-web-02 3.234.218.189:80 check
+        server 2213-web-01 34.148.229.252:80 check
+        server 2213-web-02 3.231.219.127:80 check
